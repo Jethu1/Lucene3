@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6cb338-1afa-4c89-9095-432c94124e5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demo/2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.ignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="Lucene3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TextFileIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextFileIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo1/TextFileIndex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -38,6 +38,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo/2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/demo2/TestQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo3/1.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/2.txt" />
       </list>
     </option>
   </component>
@@ -941,12 +952,12 @@
       <updated>1497507794535</updated>
       <workItem from="1497507797479" duration="12497000" />
       <workItem from="1497579036890" duration="14400000" />
-      <workItem from="1497660418795" duration="10827000" />
+      <workItem from="1497660418795" duration="11009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37724000" />
+    <option name="totallyTimeSpent" value="37906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="197" y="147" width="1123" height="683" extended-state="0" />
@@ -1217,6 +1228,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
