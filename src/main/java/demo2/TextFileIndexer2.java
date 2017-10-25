@@ -3,18 +3,14 @@ package demo2;
 /**
  * Created by Administrator on 2017/6/17.
  */
-import  java.io.BufferedReader;
-import  java.io.File;
-import  java.io.FileInputStream;
-import  java.io.IOException;
-import  java.io.InputStreamReader;
-import  java.util.Date;
+import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.index.IndexWriter;
 
-import  org.apache.lucene.analysis.Analyzer;
-import  org.apache.lucene.analysis.standard.StandardAnalyzer;
-import  org.apache.lucene.document.Document;
-import  org.apache.lucene.document.Field;
-import  org.apache.lucene.index.IndexWriter;
+import java.io.*;
+import java.util.Date;
 
 /** */ /**
  * author lighter date 2006-8-7
@@ -38,8 +34,7 @@ public   class  TextFileIndexer2  {
                     &&  textFiles[i].getName().endsWith( ".txt" ))  {
                 System.out.println( " File  "   +  textFiles[i].getCanonicalPath()
                         +   "正在被索引 . " );
-                String temp  =  FileReaderAll(textFiles[i].getCanonicalPath(),
-                        "GBK" );
+                String temp  =  FileReaderAll(textFiles[i].getCanonicalPath(),"GBK" );
                 System.out.println(temp);
                 Document document  =   new  Document();  //Document是一个记录。用来表示一个条目。就是搜索建立的倒排索引的条目。比如说，你要搜索自己电脑上的文件。这个时候就可以创建field。然后用field组合成 document 。最后会变成若干文件。这个document和 文件系统document不是一个概念。
                 Field FieldPath  =   new  Field( "path" , textFiles[i].getPath(),
